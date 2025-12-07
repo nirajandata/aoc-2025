@@ -27,10 +27,6 @@ auto main() -> int {
     max_num = first_digit - '0';
     max_num += 10 * (second_digit - '0');
 
-    if (second_digit == '#')
-      max_num = 0;
-
-
     //  right side second max
     second_digit = '#';
     for (ssize_t i = loc + 1; i < s.size(); i++) {
